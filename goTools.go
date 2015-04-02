@@ -2,8 +2,6 @@
 //Dana Urban
 //04/01/2015
 
-//  Need to convert this to a formal go workspace
-
 package gotools
 
 //get input from the command line
