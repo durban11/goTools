@@ -4,9 +4,16 @@
 
 package gotools
 
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
 //get input from the command line
 //i am sure their are better ways but this is my way
-func stdin_line_read(a string) string {
+func Stdin_line_read(a string) string {
 	//a is used to pass in a prompt
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print(a + "\n")
